@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ሃገርኛ Calculator</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <h1>ሃገርኛ Calculator</h1>
+    <div id="thewhole">
+        <div id="inpt">
+            <input type="text" id="input" onkeydown="validateInput(event)">
+            <button type="button" id="inputbtn" onmousedown="startTimer()" onmouseup="stopTimer()">አጥፋ</button>
+        </div>
+        <div class="btns">
+            <button onclick="addToInput('1')">1</button>
+            <button onclick="addToInput('2')">2</button>
+            <button onclick="addToInput('3')">3</button>
+            <button onclick="addToInput('-')">-</button><br>
+            <button onclick="addToInput('4')">4</button>
+            <button onclick="addToInput('5')">5</button>
+            <button onclick="addToInput('6')">6</button>
+            <button onclick="addToInput('*')">x</button><br>
+            <button onclick="addToInput('7')">7</button>
+            <button onclick="addToInput('8')">8</button>
+            <button onclick="addToInput('9')">9</button>
+            <button onclick="addToInput('/')">/</button><br>
+            <button onclick="addToInput('0')">0</button>
+            <button onclick="addToInput('+')">+</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>ይህ መቀመሪያ የተሰራው በ ዘሚካኤል ETH ነው።</p>
+        TELEGRAM- <a href="https://web.tel.onl/#@Calidus_Brachium_vl">Asta</a>
+        <address>አዲስ አበባ ፤ ኢትዮጵያ</address>
+        <i>+251961153771</i><br>
+        <i>Free From Copyright. @2015 All Rights Reserve.</i><hr>
+    </footer>
+
+    <script src="index.js">
+    </script>
+</body>
+</html>

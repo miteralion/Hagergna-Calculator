@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body{
+    background-color: rgb(61, 60, 60);
+    color: rgb(179, 122, 16);
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+}
+button{
+    border-radius: 40px;
+    border-width: 38.5px;
+    border-color: rgb(4, 37, 187) ;
+    border-style: solid;
+    color: rgb(226, 236, 236);
+    font-size: xx-large;
+    background-color: rgb(4, 37, 187);
+    font-family: 'Tilt Prism', cursive;
+}
+h1{
+    color: azure;
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px 0px rgb(218, 217, 217);
+}
+input{
+    border-width: 3px;
+    width: 250px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(0, 204, 102);
+    font-family: 'Tilt Prism', cursive;
+    font-size: xx-large;
+    color: rgb(248, 248, 248);
+    background-color: rgb(2, 22, 16);
+    box-shadow: 2px 2px 33px 1px rgb(8, 219, 8);
+}
+#minus{
+    font-family: none;
+    font-size: 35px;
+    font-weight: bolder;
+    font-stretch: condensed;
+}
+#inputbtn{
+    border-width: 1px;
+    width: 100px;
+    height: 60px;
+}
+input{
+    margin-bottom: 10px;
+}
+button:active{
+    box-shadow: 3px 3px 10px 3px white;
+    transition-duration: 0.2s;
+}
+footer{
+    font-family: none;
+}
+a{
+    color: rgb(53, 202, 153);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+h1::selection{
+    background-color: aqua;
+}
